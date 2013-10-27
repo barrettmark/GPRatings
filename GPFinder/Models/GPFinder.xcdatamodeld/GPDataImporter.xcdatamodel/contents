@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12C54" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="GP" representedClassName="GP" syncable="YES">
+        <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ageBreakdown0to14" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ageBreakdown15to44" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ageBreakdown45to74" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ageBreakdown75" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="allStarRating" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="chronicObstructivePulmonaryDiseaseValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="coronaryHeartDiseaseValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="deprivationLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="didCancerPatientsRecentlyHaveACancerReviewNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="didCancerPatientsRecentlyHaveACancerReviewRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="didTheDoctorInvolveYouInDecisionsAboutYourCareRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="didTheDoctorInvolveYouInDecisionsAboutYourCareRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="didTheNurseExplainTestsAndTreatmentsRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="didTheNurseExplainTestsAndTreatmentsRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="didTheNurseTreatPatientsWithCareAndConcernRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="didTheNurseTreatPatientsWithCareAndConcernRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="doctorOverallStarRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="eastings" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="femaleGPs" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="howHelpfulWasTheReceptionistRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="howHelpfulWasTheReceptionistRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hypertensionValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="maleGPs" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="northings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfPatientsWithChronicObstructivePulmonaryDiseaseNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfPatientsWithCoronaryHeartDiseaseNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfPatientsWithHypertensionNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="numberOfPatientsWithStrokeNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="nurseOverallStarRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="outcomesOverallStarRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="overallPrevalence" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="overallStarRating" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="patientConfidenceAndTrustInTheDoctorRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="patientConfidenceAndTrustInTheDoctorRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="patientSatisfactionWithOpeningHoursRating" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="patientSatisfactionWithOpeningHoursRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="postcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="practiceName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strokeValue" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalPatientsPerGP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalRegisteredList" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wasItEasyToGetAnAppointmentWithANurseRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="wasItEasyToGetAnAppointmentWithANurseRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wasRetinalScreeningRecentlyCompletedForDiabetesPatientsNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wasRetinalScreeningRecentlyCompletedForDiabetesPatientsRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereAsthmaPatientsRecentlyGivenAnAsthmaReviewNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereAsthmaPatientsRecentlyGivenAnAsthmaReviewRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereBloodPressureTestsRecentlyCompletedForPatientsWithCoronaryHeartDiseaseNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereBloodPressureTestsRecentlyCompletedForPatientsWithCoronaryHeartDiseaseRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereEligibleWomenScreenedNumberOfPatients" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereEligibleWomenScreenedRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereYouAbleToSeeADoctorWithinTwoWorkingDaysRating" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="wereYouAbleToSeeADoctorWithinTwoWorkingDaysRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wouldYouRecommendYourGPSurgeryRating" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="wouldYouRecommendYourGPSurgeryRespondents" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GP" positionX="160" positionY="192" width="128" height="1005"/>
+    </elements>
+</model>

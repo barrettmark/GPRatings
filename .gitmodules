@@ -1,0 +1,9 @@
+[submodule "MBProgressHUD"]
+	path = MBProgressHUD
+	url = git://github.com/jdg/MBProgressHUD.git
+[submodule "MagicalRecord"]
+	path = MagicalRecord
+	url = git://github.com/magicalpanda/MagicalRecord.git
+[submodule "MapKit-Route-Directions"]
+	path = MapKit-Route-Directions
+	url = git://github.com/kishikawakatsumi/MapKit-Route-Directions.git
