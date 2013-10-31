@@ -42,14 +42,35 @@ Deciles provide the star rating out of a maximum of 5 start (there are full star
 
 This provides the data that is used for the app.
 
+Code from other repos
+=========
+
+MBProgressHUD 
+
+Popup notifications
+
+git://github.com/jdg/MBProgressHUD.git
+
+MagicalRecord
+
+Handles Core Data queries
+
+git://github.com/magicalpanda/MagicalRecord.git
+	
+MapKit-Route-Directions
+
+Annotates a map with directions.
+
+git://github.com/kishikawakatsumi/MapKit-Route-Directions.git
+
 Why Open Source?
 =========
 There is a lot of potential to use this framework for other sectors - School Ratings, Hospital Ratings - anything where there is rich, Open Source Data. I believe I can add more value to the Open Data movement by releasing it as Creative Commons Open Source, and letting others use the framework for their own endevours. 
 
 Let me know how you get on
 =========
-http://www.barrettmark.com
-@m_barrett
+http://www.barrettmark.com / http://twitter.com/m_barrett
+
 It'd be nice to get a credit in your app if you use this source code 
 
 
