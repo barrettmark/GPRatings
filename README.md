@@ -49,19 +49,19 @@ MBProgressHUD
 
 Popup notifications
 
-git://github.com/jdg/MBProgressHUD.git
+https://github.com/jdg/MBProgressHUD.git
 
 MagicalRecord
 
 Handles Core Data queries
 
-git://github.com/magicalpanda/MagicalRecord.git
+https://github.com/magicalpanda/MagicalRecord.git
 	
 MapKit-Route-Directions
 
 Annotates a map with directions.
 
-git://github.com/kishikawakatsumi/MapKit-Route-Directions.git
+https://github.com/kishikawakatsumi/MapKit-Route-Directions.git
 
 Why Open Source?
 =========
