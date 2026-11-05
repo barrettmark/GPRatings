@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Source for app/apple-icon.png (rendered at 180x180). Redrawn from the 2013 GP Ratings icon:
+       pin + medical plus + five stars, in the site palette (teal, paper, amber). Not red-on-white. -->
+  <rect width="512" height="512" fill="#004848"/>
+  <g transform="translate(89.6 14) scale(5.2)">
+    <path d="M32 61C25.5 52.5 12 40.6 12 26a20 20 0 0 1 40 0c0 14.6-13.5 26.5-20 35Z" fill="#fcfaf6"/>
+    <path d="M29.6 18.5a1.6 1.6 0 0 1 1.6-1.6h1.6a1.6 1.6 0 0 1 1.6 1.6v5.1h5.1a1.6 1.6 0 0 1 1.6 1.6v1.6a1.6 1.6 0 0 1-1.6 1.6h-5.1v5.1a1.6 1.6 0 0 1-1.6 1.6h-1.6a1.6 1.6 0 0 1-1.6-1.6v-5.1h-5.1a1.6 1.6 0 0 1-1.6-1.6v-1.6a1.6 1.6 0 0 1 1.6-1.6h5.1Z" fill="#004848"/>
+  </g>
+  <g fill="#eb9f2c">
+    <path transform="translate(98 368) scale(2.6)" d="M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z"/>
+    <path transform="translate(164 368) scale(2.6)" d="M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z"/>
+    <path transform="translate(230 368) scale(2.6)" d="M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z"/>
+    <path transform="translate(296 368) scale(2.6)" d="M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z"/>
+    <path transform="translate(362 368) scale(2.6)" d="M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z"/>
+  </g>
+</svg>

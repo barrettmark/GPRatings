@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T17:00:00Z",
+  "title": "Design System: GP Ratings",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "oklch(0.985 0.006 85)", "dark": "oklch(0.19 0.018 210)", "cssVar": "--background", "tonalRamp": ["oklch(0.15 0.006 85)", "oklch(0.27 0.008 85)", "oklch(0.39 0.01 85)", "oklch(0.51 0.012 85)", "oklch(0.63 0.012 85)", "oklch(0.75 0.012 85)", "oklch(0.87 0.01 85)", "oklch(0.95 0.008 85)"] },
+      "ink": { "role": "neutral", "displayName": "Teal Ink", "canonical": "oklch(0.23 0.03 205)", "dark": "oklch(0.95 0.008 85)", "cssVar": "--foreground", "tonalRamp": ["oklch(0.15 0.02 205)", "oklch(0.25 0.03 205)", "oklch(0.36 0.035 205)", "oklch(0.47 0.035 205)", "oklch(0.58 0.03 205)", "oklch(0.7 0.025 205)", "oklch(0.83 0.015 205)", "oklch(0.95 0.008 205)"] },
+      "card-white": { "role": "neutral", "displayName": "Sheet White", "canonical": "oklch(1 0 0)", "dark": "oklch(0.23 0.02 210)", "cssVar": "--card" },
+      "primary": { "role": "primary", "displayName": "Deep Harbour Teal", "canonical": "oklch(0.36 0.07 195)", "dark": "oklch(0.8 0.08 190)", "cssVar": "--primary", "tonalRamp": ["oklch(0.15 0.03 195)", "oklch(0.25 0.05 195)", "oklch(0.36 0.07 195)", "oklch(0.47 0.08 195)", "oklch(0.58 0.08 195)", "oklch(0.7 0.07 195)", "oklch(0.83 0.05 195)", "oklch(0.95 0.02 195)"] },
+      "primary-foreground": { "role": "primary", "displayName": "Paper on Teal", "canonical": "oklch(0.985 0.006 85)", "dark": "oklch(0.2 0.03 205)", "cssVar": "--primary-foreground" },
+      "secondary": { "role": "neutral", "displayName": "Pale Newsprint", "canonical": "oklch(0.95 0.012 85)", "dark": "oklch(0.27 0.02 210)", "cssVar": "--secondary" },
+      "secondary-foreground": { "role": "neutral", "displayName": "Newsprint Ink", "canonical": "oklch(0.27 0.04 200)", "dark": "oklch(0.93 0.01 85)", "cssVar": "--secondary-foreground" },
+      "muted-foreground": { "role": "neutral", "displayName": "Slate Teal Grey", "canonical": "oklch(0.47 0.025 205)", "dark": "oklch(0.73 0.02 205)", "cssVar": "--muted-foreground" },
+      "accent": { "role": "primary", "displayName": "Sea-Glass Wash", "canonical": "oklch(0.93 0.03 190)", "dark": "oklch(0.3 0.04 195)", "cssVar": "--accent" },
+      "accent-foreground": { "role": "primary", "displayName": "Sea-Glass Ink", "canonical": "oklch(0.27 0.05 195)", "dark": "oklch(0.93 0.02 190)", "cssVar": "--accent-foreground" },
+      "border": { "role": "neutral", "displayName": "Hairline", "canonical": "oklch(0.9 0.012 85)", "dark": "oklch(1 0 0 / 11%)", "cssVar": "--border" },
+      "input": { "role": "neutral", "displayName": "Field Edge", "canonical": "oklch(0.88 0.014 85)", "dark": "oklch(1 0 0 / 16%)", "cssVar": "--input" },
+      "ring": { "role": "primary", "displayName": "Focus Teal", "canonical": "oklch(0.55 0.08 195)", "dark": "oklch(0.7 0.08 190)", "cssVar": "--ring" },
+      "star": { "role": "secondary", "displayName": "Amber Star", "canonical": "oklch(0.76 0.15 72)", "dark": "oklch(0.8 0.15 75)", "cssVar": "--star", "tonalRamp": ["oklch(0.2 0.05 72)", "oklch(0.32 0.08 72)", "oklch(0.45 0.11 72)", "oklch(0.58 0.13 72)", "oklch(0.68 0.15 72)", "oklch(0.76 0.15 72)", "oklch(0.86 0.1 72)", "oklch(0.95 0.04 72)"] },
+      "star-empty": { "role": "secondary", "displayName": "Unlit Star", "canonical": "oklch(0.88 0.02 85)", "dark": "oklch(0.36 0.02 210)", "cssVar": "--star-empty" },
+      "better": { "role": "tertiary", "displayName": "Verdict Green", "canonical": "oklch(0.47 0.11 155)", "dark": "oklch(0.78 0.12 155)", "cssVar": "--better", "tonalRamp": ["oklch(0.15 0.04 155)", "oklch(0.26 0.07 155)", "oklch(0.37 0.09 155)", "oklch(0.47 0.11 155)", "oklch(0.6 0.11 155)", "oklch(0.72 0.1 155)", "oklch(0.84 0.07 155)", "oklch(0.94 0.04 155)"] },
+      "better-soft": { "role": "tertiary", "displayName": "Verdict Green Wash", "canonical": "oklch(0.94 0.04 155)", "dark": "oklch(0.3 0.05 155)", "cssVar": "--better-soft" },
+      "worse": { "role": "tertiary", "displayName": "Verdict Brick", "canonical": "oklch(0.5 0.15 32)", "dark": "oklch(0.75 0.13 35)", "cssVar": "--worse (alias --loss)", "tonalRamp": ["oklch(0.15 0.05 32)", "oklch(0.27 0.09 32)", "oklch(0.38 0.12 32)", "oklch(0.5 0.15 32)", "oklch(0.62 0.14 32)", "oklch(0.74 0.11 32)", "oklch(0.85 0.07 32)", "oklch(0.95 0.035 32)"] },
+      "worse-soft": { "role": "tertiary", "displayName": "Verdict Brick Wash", "canonical": "oklch(0.95 0.035 32)", "dark": "oklch(0.31 0.05 32)", "cssVar": "--worse-soft (alias --loss-soft)" },
+      "destructive": { "role": "tertiary", "displayName": "Alarm Brick", "canonical": "oklch(0.52 0.16 30)", "dark": "oklch(0.7 0.15 30)", "cssVar": "--destructive" }
+    },
+    "mapMarkerRamp": {
+      "note": "Hard-coded hex in components/results-map.tsx starColour() and mirrored in MAP_KEY in components/search-results.tsx; SVG path attributes cannot read CSS vars. Stroke is #ffffff.",
+      "steps": [
+        { "range": "4.5–5 stars", "value": "#16645f" },
+        { "range": "3.5–4", "value": "#3d958a" },
+        { "range": "2.5–3", "value": "#c39a1c" },
+        { "range": "1.5–2", "value": "#d6782c" },
+        { "range": "0.5–1", "value": "#b23f2a" },
+        { "range": "no rating", "value": "#8a9294" },
+        { "range": "search location", "value": "#1d3b4a" }
+      ]
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Home headline only. Fraunces with optical sizing and SOFT 30." },
+      "headline": { "displayName": "Headline", "purpose": "Practice name as page h1." },
+      "section": { "displayName": "Section", "purpose": "Section heads on a 2px ink rule; 1.875rem, 2.25rem on home from sm." },
+      "title": { "displayName": "Title", "purpose": "Practice names in ranked lists (1.375rem from sm) and home theme names." },
+      "figure": { "displayName": "Figure", "purpose": "Percentages and star values set large in the serif with tabular numerals." },
+      "body": { "displayName": "Body", "purpose": "Running text at 17px; leads step to 1.125–1.25rem, capped near 38rem." },
+      "body-strong": { "displayName": "Body Strong", "purpose": "Question labels and list link names." },
+      "label": { "displayName": "Label", "purpose": "Metadata, captions, verdicts, controls." },
+      "caption": { "displayName": "Caption", "purpose": "Map key, compare count, footnotes." }
+    },
+    "rules": [
+      { "name": "rule-strong", "value": "border-top: 2px solid var(--foreground)", "purpose": "Opens a section, list or scorecard." },
+      { "name": "rule-t", "value": "border-top: 1px solid var(--border)", "purpose": "Divides rows and separates home sections." }
+    ],
+    "materials": [
+      { "name": "material", "value": "background: color-mix(in oklch, var(--background) 72%, transparent); backdrop-filter: blur(20px) saturate(180%)", "purpose": "Masthead and compare bar. Solid background under prefers-reduced-transparency; solid plus 1px ink inset under prefers-contrast: more." }
+    ],
+    "shadows": [
+      { "name": "scroll-edge", "value": "linear-gradient(to bottom, color-mix(in oklch, var(--foreground) 7%, transparent), transparent) 14px tall, fading in over the first 40px of root scroll", "purpose": "Masthead shadow only once content is under it; inset 0 -1px 0 var(--border) fallback." },
+      { "name": "lifted-bar", "value": "0 -10px 30px -14px rgb(0 0 0 / 0.25)", "purpose": "Compare bar only." },
+      { "name": "small-lift", "value": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)", "purpose": "Result-bar dot and segmented thumb." },
+      { "name": "hairline-lift", "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)", "purpose": "Search field and compare chips." }
+    ],
+    "motion": [
+      { "name": "ease-out-quart", "value": "cubic-bezier(0.25, 1, 0.5, 1)", "purpose": "Segmented thumb (300ms) and compare bar slide (380ms)." },
+      { "name": "ease-underline", "value": "cubic-bezier(0.65, 0.05, 0.36, 1)", "purpose": "Link-button underline growing in (300ms)." },
+      { "name": "duration-press", "value": "150ms", "purpose": "Button colour and scale-to-0.98 press." },
+      { "name": "arrow-turn", "value": "rotate(360deg) over 300ms on hover", "purpose": "Primary-button trailing arrow." },
+      { "name": "reduced-motion", "value": "scroll-behavior auto; pulse off; thumb and chevron transitions none; compare bar fades only (200ms)", "purpose": "prefers-reduced-motion fallback." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Teal action with an arrow that turns once on hover; used for Find practices and Compare practices.",
+      "html": "<button class=\"ds-btn-primary\">Find practices<span class=\"ds-btn-arrow\" aria-hidden=\"true\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 15 15\" fill=\"none\"><path d=\"M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z\" fill=\"currentColor\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"/></svg></span></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 6px; height: 48px; padding: 0 20px; border: 1px solid transparent; border-radius: 8px; background: var(--primary); color: color-mix(in oklch, var(--primary-foreground), var(--primary) 12%); font: 500 1rem/1 var(--font-sans, Figtree, system-ui, sans-serif); cursor: pointer; transition: color 150ms, background-color 150ms, transform 150ms, box-shadow 150ms; } .ds-btn-primary:hover { color: var(--primary-foreground); } .ds-btn-primary:active { background: color-mix(in oklch, var(--primary), white 14%); transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring) 40%, transparent); } .ds-btn-arrow { display: inline-flex; margin-right: -2px; transition: transform 300ms; } .ds-btn-primary:hover .ds-btn-arrow { transform: rotate(360deg); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "White sheet button with a leading icon for Call and Directions; no arrow.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>Directions</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; gap: 6px; height: 44px; padding: 0 16px 0 12px; border: 1px solid var(--input); border-radius: 8px; background: var(--card); color: var(--foreground); font: 500 0.875rem/1 var(--font-sans, Figtree, system-ui, sans-serif); text-decoration: none; transition: background-color 150ms, transform 150ms; } .ds-btn-outline:hover { background: var(--secondary); } .ds-btn-outline:active { background: var(--muted); transform: scale(0.98); } .ds-btn-outline:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring) 40%, transparent); }"
+    },
+    {
+      "name": "Link Button",
+      "kind": "button",
+      "refersTo": "button-link",
+      "description": "Boxless action whose underline grows in from the left; used for Use my location.",
+      "html": "<button class=\"ds-btn-link\">Use my location</button>",
+      "css": ".ds-btn-link { position: relative; padding: 0; border: 0; background: none; color: var(--muted-foreground); font: 500 0.875rem/1.4 var(--font-sans, Figtree, system-ui, sans-serif); cursor: pointer; transition: color 150ms; } .ds-btn-link::after { content: \"\"; position: absolute; left: 0; bottom: -2px; width: 100%; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: bottom right; transition: transform 300ms cubic-bezier(0.65, 0.05, 0.36, 1); } .ds-btn-link:hover { color: var(--foreground); } .ds-btn-link:hover::after { transform: scaleX(1); transform-origin: bottom left; } .ds-btn-link:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; border-radius: 4px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Hero postcode/town/practice field with a leading search icon.",
+      "html": "<label class=\"ds-search\"><svg class=\"ds-search-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input class=\"ds-search-input\" placeholder=\"Postcode, town or practice name\"></label>",
+      "css": ".ds-search { position: relative; display: block; max-width: 42rem; } .ds-search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--muted-foreground); pointer-events: none; } .ds-search-input { width: 100%; height: 48px; padding: 0 12px 0 40px; border: 1px solid var(--input); border-radius: 10px; background: var(--card); color: var(--foreground); caret-color: var(--primary); font: 400 1rem/1 var(--font-sans, Figtree, system-ui, sans-serif); box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); outline: none; transition: border-color 150ms, box-shadow 150ms; } .ds-search-input::placeholder { color: color-mix(in oklch, var(--muted-foreground) 80%, transparent); } .ds-search-input:focus-visible { border-color: var(--ring); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring) 30%, transparent); }"
+    },
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "refersTo": "masthead",
+      "description": "Sticky frosted header with the amber star mark, serif wordmark and two quiet links.",
+      "html": "<header class=\"ds-masthead\"><a class=\"ds-wordmark\" href=\"#\"><svg viewBox=\"0 0 20 20\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z\" fill=\"currentColor\"/></svg>GP Ratings</a><nav class=\"ds-nav\"><a href=\"#\">Search</a><a href=\"#\">How ratings work</a></nav></header>",
+      "css": ".ds-masthead { display: flex; align-items: center; justify-content: space-between; height: 56px; padding: 0 24px; background: color-mix(in oklch, var(--background) 72%, transparent); -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%); } .ds-wordmark { display: flex; align-items: center; gap: 8px; color: var(--foreground); text-decoration: none; font: 600 1.125rem/1 var(--font-heading, Fraunces, Georgia, serif); letter-spacing: -0.025em; } .ds-wordmark svg { color: var(--star); } .ds-nav { display: flex; margin-right: -8px; } .ds-nav a { padding: 10px 8px; border-radius: 6px; color: var(--muted-foreground); font: 400 0.875rem/1 var(--font-sans, Figtree, system-ui, sans-serif); text-decoration: none; transition: color 150ms; } .ds-nav a:hover { color: var(--foreground); } .ds-nav a:active { opacity: 0.6; } .ds-nav a:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segmented-control",
+      "description": "Two-option toggle with one teal thumb that slides between segments (List/Map, Nearest/Highest rated).",
+      "html": "<div class=\"ds-seg\" role=\"group\" aria-label=\"Sort\"><span class=\"ds-seg-thumb\" aria-hidden=\"true\"></span><button class=\"ds-seg-btn is-on\" aria-pressed=\"true\">Nearest</button><button class=\"ds-seg-btn\" aria-pressed=\"false\">Highest rated</button></div>",
+      "css": ".ds-seg { position: relative; display: inline-grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 2px; border: 1px solid var(--input); border-radius: 9px; background: var(--card); } .ds-seg-thumb { position: absolute; top: 2px; bottom: 2px; left: 2px; width: calc((100% - 4px) / 2); border-radius: 7px; background: var(--primary); box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); transition: transform 300ms cubic-bezier(0.25, 1, 0.5, 1); } .ds-seg:has(.ds-seg-btn:nth-of-type(2).is-on) .ds-seg-thumb { transform: translateX(100%); } .ds-seg-btn { position: relative; height: 32px; padding: 0 12px; border: 0; border-radius: 7px; background: none; color: var(--muted-foreground); font: 400 0.875rem/1 var(--font-sans, Figtree, system-ui, sans-serif); white-space: nowrap; cursor: pointer; transition: color 200ms; } .ds-seg-btn:hover { color: var(--foreground); } .ds-seg-btn.is-on { color: var(--primary-foreground); } .ds-seg-btn:active { opacity: 0.7; } .ds-seg-btn:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }"
+    },
+    {
+      "name": "Result Bar",
+      "kind": "custom",
+      "refersTo": "result-bar",
+      "description": "Signature data bar: newsprint track, translucent teal likely-range band, amber England-average tick, teal practice dot.",
+      "html": "<div class=\"ds-rbar\" aria-hidden=\"true\"><div class=\"ds-rbar-track\"></div><div class=\"ds-rbar-band\" style=\"left:58%;width:16%\"></div><div class=\"ds-rbar-tick\" style=\"left:52%\"></div><div class=\"ds-rbar-dot\" style=\"left:66%\"></div></div>",
+      "css": ".ds-rbar { position: relative; height: 24px; width: 100%; min-width: 280px; } .ds-rbar-track, .ds-rbar-band { position: absolute; top: 50%; height: 6px; transform: translateY(-50%); border-radius: 9999px; } .ds-rbar-track { left: 0; right: 0; background: var(--secondary); } .ds-rbar-band { background: color-mix(in oklch, var(--primary) 25%, transparent); } .ds-rbar-tick { position: absolute; top: 2px; bottom: 2px; width: 2px; transform: translateX(-50%); border-radius: 2px; background: var(--star); } .ds-rbar-dot { position: absolute; top: 50%; width: 14px; height: 14px; transform: translate(-50%, -50%); border: 2px solid var(--card); border-radius: 9999px; background: var(--primary); box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); }"
+    },
+    {
+      "name": "Verdict Badges",
+      "kind": "chip",
+      "refersTo": "badge-better",
+      "description": "Coloured pills only for confirmed better/worse; similar is plain muted text.",
+      "html": "<div class=\"ds-verdicts\"><span class=\"ds-pill ds-pill-better\">Better than England average</span><span class=\"ds-pill ds-pill-worse\">Worse than England average</span><span class=\"ds-similar\">Not clearly different from England average</span></div>",
+      "css": ".ds-verdicts { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; font-family: var(--font-sans, Figtree, system-ui, sans-serif); } .ds-pill { display: inline-flex; padding: 2px 10px; border-radius: 9999px; font-size: 0.875rem; font-weight: 500; } .ds-pill-better { background: var(--better-soft); color: var(--better); } .ds-pill-worse { background: var(--worse-soft); color: var(--worse); } .ds-similar { font-size: 0.875rem; color: var(--muted-foreground); }"
+    },
+    {
+      "name": "Ruled Result List",
+      "kind": "card",
+      "refersTo": "ruled-list",
+      "description": "Ranked practice list: 2px ink rule to open, 1px hairlines between rows, serif names, CSS-mask stars on the right.",
+      "html": "<ol class=\"ds-list\"><li class=\"ds-row\"><span class=\"ds-rank\">1</span><div class=\"ds-row-main\"><a class=\"ds-row-name\" href=\"#\">Riverside Medical Practice</a><p class=\"ds-row-meta\">Morpeth · NE61 1JQ · 0.4 miles</p></div><div class=\"ds-row-score\"><span class=\"ds-stars\" style=\"--v:4.5\" role=\"img\" aria-label=\"4.5 out of 5 stars\"></span><p class=\"ds-row-meta\">91% rate it good overall</p></div></li><li class=\"ds-row\"><span class=\"ds-rank\">2</span><div class=\"ds-row-main\"><a class=\"ds-row-name\" href=\"#\">Greystoke Surgery</a><p class=\"ds-row-meta\">Morpeth · NE61 2SR · 1.1 miles</p></div><div class=\"ds-row-score\"><span class=\"ds-stars\" style=\"--v:4\" role=\"img\" aria-label=\"4 out of 5 stars\"></span><p class=\"ds-row-meta\">87% rate it good overall</p></div></li></ol>",
+      "css": ".ds-list { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--foreground); } .ds-row { display: grid; grid-template-columns: 2.75rem 1fr auto; gap: 16px; padding: 20px 0; border-top: 1px solid var(--border); transition: background-color 150ms; } .ds-row:first-child { border-top: 0; } .ds-row:hover .ds-row-name { text-decoration: underline; text-underline-offset: 0.2em; text-decoration-thickness: 1px; } .ds-rank { padding-top: 2px; font: 400 1.5rem/1 var(--font-heading, Fraunces, Georgia, serif); color: color-mix(in oklch, var(--muted-foreground) 70%, transparent); font-variant-numeric: tabular-nums; } .ds-row-name { color: var(--foreground); text-decoration: none; font: 400 1.375rem/1.375 var(--font-heading, Fraunces, Georgia, serif); letter-spacing: -0.005em; } .ds-row-name:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; border-radius: 4px; } .ds-row-meta { margin: 2px 0 0; font: 400 0.875rem/1.43 var(--font-sans, Figtree, system-ui, sans-serif); color: var(--muted-foreground); font-variant-numeric: tabular-nums; } .ds-row-score { text-align: right; } .ds-stars { --size: 20px; --tile: 23px; position: relative; display: inline-block; width: calc(var(--tile) * 5); height: var(--size); background: linear-gradient(90deg, var(--star) calc(var(--v) * 20%), var(--star-empty) 0); -webkit-mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z'/%3E%3C/svg%3E\") 0 0 / var(--tile) var(--size) repeat-x; mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z'/%3E%3C/svg%3E\") 0 0 / var(--tile) var(--size) repeat-x; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Refined Editorial Page",
+    "overview": "GP Ratings reads like the data pages of a good newspaper, not like a health-service portal. The ground is warm off-white paper; text is a deep teal-black ink; one deep teal does the work of action and data; amber is kept for stars and for the England-average mark. Big Fraunces headlines at normal weight sit above generous white space, and Figtree carries everything people actually read and tap.\n\nStructure comes from rules rather than boxes. A 2px ink rule opens a section, list or scorecard; 1px warm hairlines separate the rows inside it. Data is shown as clean horizontal bars and ruled, ranked lists, with numbers set in tabular figures. The only things that float are the things that move: the frosted masthead, the frosted compare bar, the sliding segmented-control thumb and the result dot.\n\nThe look is deliberately independent of the NHS visual language (no NHS blue, no NHS-style panels). It follows the operating system: light and dark come from `prefers-color-scheme`, and reduced motion, reduced transparency and increased contrast each have explicit fallbacks.",
+    "keyCharacteristics": [
+      "Warm paper ground, teal ink, amber stars; one action colour.",
+      "Fraunces display at weight 400, tightening as it grows; Figtree body at 17px.",
+      "2px ink rule to open, 1px hairline to divide; no cards around lists.",
+      "Data as bars and ranked lists, always with tabular numerals.",
+      "Frosted, translucent chrome only on fixed elements.",
+      "Full dark scheme and accessibility-preference fallbacks."
+    ],
+    "rules": [
+      { "name": "The Amber Means Rating Rule", "body": "Amber marks stars and the England average and nothing else: no amber buttons, links or decoration.", "section": "colors" },
+      { "name": "The Quiet Similar Rule", "body": "Colour is earned by a confirmed difference. \"Not clearly different\" stays plain muted text; only better/worse get tinted pills.", "section": "colors" },
+      { "name": "The Tokens-Only Rule", "body": "UI colours come from the CSS custom properties so both schemes stay in step. The only allowed exception is the Leaflet marker ramp (see Components), because SVG path attributes cannot read CSS variables.", "section": "colors" },
+      { "name": "The Tracking Follows Size Rule", "body": "Headings tighten as they grow (h1 -0.03em, h2 -0.015em, h3/h4 -0.005em); the smallest text opens up slightly (+0.01em). Headings use `text-wrap: balance`, paragraphs use `pretty`.", "section": "typography" },
+      { "name": "The Tabular Figures Rule", "body": "Every number that can sit next to another number (percentages, counts, distances, ranks) uses tabular numerals.", "section": "typography" },
+      { "name": "The Only-What-Floats Rule", "body": "A shadow or blur means the element sits above the page or is moving. Static content never gets one.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do open every section, list and scorecard with a 2px ink rule and divide its rows with 1px hairlines.",
+      "Do set headlines in Fraunces at weight 400 with tracking that tightens with size; keep the serif for headlines, titles and big figures.",
+      "Do show every percentage alongside its likely range, the England average and the number of people who answered, using the result bar and tabular figures.",
+      "Do keep amber for stars and the England-average tick only.",
+      "Do keep blur and shadow to fixed or moving elements, with solid fallbacks for reduced transparency and increased contrast.",
+      "Do give touch targets at least 44px and keep each animation's reduced-motion fallback."
+    ],
+    "donts": [
+      "Don't wrap lists or data rows in rounded, bordered cards; structure is drawn with rules.",
+      "Don't colour the \"similar\" verdict or use green/brick for anything but confirmed differences and cautions.",
+      "Don't use NHS blue or NHS-style panels; the product must never look like an official NHS service.",
+      "Don't set the display serif bold, or set big numbers in the sans.",
+      "Don't hard-code colours in components; the Leaflet marker ramp is the only exception.",
+      "Don't show star ranks as position numbers in a distance-sorted list."
+    ]
+  }
+}

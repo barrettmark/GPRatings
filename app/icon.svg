@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 4 58 58">
+  <style>
+    .pin { fill: #004848 } .disc { fill: #fcfaf6 } .plus { fill: #004848 }
+    @media (prefers-color-scheme: dark) { .pin { fill: #7ecfc9 } .disc { fill: #102326 } .plus { fill: #7ecfc9 } }
+  </style>
+  <path class="pin" d="M32 61C25.5 52.5 12 40.6 12 26a20 20 0 0 1 40 0c0 14.6-13.5 26.5-20 35Z"/>
+  <circle class="disc" cx="32" cy="26" r="12.5"/>
+  <path class="plus" d="M29.6 18.5a1.6 1.6 0 0 1 1.6-1.6h1.6a1.6 1.6 0 0 1 1.6 1.6v5.1h5.1a1.6 1.6 0 0 1 1.6 1.6v1.6a1.6 1.6 0 0 1-1.6 1.6h-5.1v5.1a1.6 1.6 0 0 1-1.6 1.6h-1.6a1.6 1.6 0 0 1-1.6-1.6v-5.1h-5.1a1.6 1.6 0 0 1-1.6-1.6v-1.6a1.6 1.6 0 0 1 1.6-1.6h5.1Z"/>
+</svg>

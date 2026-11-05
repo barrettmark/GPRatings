@@ -1,0 +1,299 @@
+{
+ "year": 2026,
+ "minRespondents": 30,
+ "practiceCount": 6166,
+ "responses": 654714,
+ "themes": [
+  {
+   "key": "access",
+   "label": "Getting through",
+   "summary": "How easy it is to contact the practice and get help."
+  },
+  {
+   "key": "appointments",
+   "label": "Appointments",
+   "summary": "Choice, waiting time and seeing the clinician you prefer."
+  },
+  {
+   "key": "care",
+   "label": "Care",
+   "summary": "How patients felt treated at their last appointment."
+  }
+ ],
+ "questions": [
+  {
+   "key": "overallexp",
+   "theme": "overall",
+   "label": "Overall experience",
+   "summary": "Patients describing their overall experience of the practice as good",
+   "median": 0.7909
+  },
+  {
+   "key": "localgpservicesphone",
+   "theme": "access",
+   "label": "Phoning the practice",
+   "summary": "Patients finding it easy to contact the practice by phone",
+   "median": 0.6189
+  },
+  {
+   "key": "localgpserviceswebsite",
+   "theme": "access",
+   "label": "Using the website",
+   "summary": "Patients finding it easy to contact the practice using its website",
+   "median": 0.5823
+  },
+  {
+   "key": "localgpservicesapp",
+   "theme": "access",
+   "label": "Using the NHS App",
+   "summary": "Patients finding it easy to contact the practice using the NHS App",
+   "median": 0.5672
+  },
+  {
+   "key": "localgpservicesreception",
+   "theme": "access",
+   "label": "Reception team",
+   "summary": "Patients finding the reception and admin team helpful",
+   "median": 0.8706
+  },
+  {
+   "key": "gpcontactnextstep",
+   "theme": "access",
+   "label": "Knowing what happens next",
+   "summary": "Patients who knew what the next step would be after contacting the practice",
+   "median": 0.855
+  },
+  {
+   "key": "gpcontactoverall",
+   "theme": "access",
+   "label": "Contacting the practice",
+   "summary": "Patients describing their experience of contacting the practice as good",
+   "median": 0.7563
+  },
+  {
+   "key": "lastgpapptchoice",
+   "theme": "appointments",
+   "label": "Choice of time or day",
+   "summary": "Patients offered a choice of time or day for their appointment",
+   "median": 0.5894
+  },
+  {
+   "key": "lastgpapptwait",
+   "theme": "appointments",
+   "label": "Waiting time",
+   "summary": "Patients happy with how long they waited for their appointment",
+   "median": 0.7159
+  },
+  {
+   "key": "localgpservicesprefhpsee",
+   "theme": "appointments",
+   "label": "Seeing a preferred clinician",
+   "summary": "Patients with a preferred clinician who see or speak to them always or a lot of the time",
+   "median": 0.4124
+  },
+  {
+   "key": "lastgpapptlisten",
+   "theme": "care",
+   "label": "Being listened to",
+   "summary": "Patients saying the clinician was good at listening to them",
+   "median": 0.8809
+  },
+  {
+   "key": "lastgpapptcare",
+   "theme": "care",
+   "label": "Care and concern",
+   "summary": "Patients saying the clinician treated them with care and concern",
+   "median": 0.8697
+  },
+  {
+   "key": "lastgpapptmental",
+   "theme": "care",
+   "label": "Mental wellbeing",
+   "summary": "Patients rating the clinician good at considering their mental wellbeing",
+   "median": 0.7615
+  },
+  {
+   "key": "lastgpapptconf",
+   "theme": "care",
+   "label": "Confidence and trust",
+   "summary": "Patients with confidence and trust in the clinician they saw",
+   "median": 0.9348
+  },
+  {
+   "key": "lastgpapptdecision",
+   "theme": "care",
+   "label": "Involved in decisions",
+   "summary": "Patients who felt involved in decisions about their care and treatment",
+   "median": 0.9248
+  },
+  {
+   "key": "lastgpapptneeds",
+   "theme": "care",
+   "label": "Needs met",
+   "summary": "Patients whose needs were met at their last appointment",
+   "median": 0.9116
+  },
+  {
+   "key": "healthsupport",
+   "theme": "conditions",
+   "label": "Support to manage it",
+   "summary": "Patients with a long-term condition who had enough support from local services or organisations to manage it",
+   "median": 0.7103
+  },
+  {
+   "key": "healthconversation",
+   "theme": "conditions",
+   "label": "A conversation about it",
+   "summary": "Patients with a long-term condition who talked with a clinician about managing it",
+   "median": 0.4452
+  },
+  {
+   "key": "healthcareplan",
+   "theme": "conditions",
+   "label": "An agreed plan",
+   "summary": "Patients with a long-term condition who agreed a plan with a clinician to manage it",
+   "median": 0.4642
+  }
+ ],
+ "conditionShareMedian": 0.6314,
+ "registeredAsOf": "2026-10-01",
+ "registeredMedian": 8750,
+ "deprivationGroups": [
+  {
+   "label": "least deprived",
+   "from": null,
+   "to": 13.0,
+   "overallMedian": 0.832
+  },
+  {
+   "label": "less deprived",
+   "from": 13.0,
+   "to": 18.4,
+   "overallMedian": 0.808
+  },
+  {
+   "label": "average",
+   "from": 18.4,
+   "to": 24.8,
+   "overallMedian": 0.792
+  },
+  {
+   "label": "more deprived",
+   "from": 24.8,
+   "to": 33.3,
+   "overallMedian": 0.768
+  },
+  {
+   "label": "most deprived",
+   "from": 33.3,
+   "to": null,
+   "overallMedian": 0.759
+  }
+ ],
+ "sizeBands": [
+  {
+   "key": "small",
+   "label": "Small practice",
+   "from": 0,
+   "to": 4999
+  },
+  {
+   "key": "medium",
+   "label": "Medium practice",
+   "from": 5000,
+   "to": 9999
+  },
+  {
+   "key": "large",
+   "label": "Large practice",
+   "from": 10000,
+   "to": 19999
+  },
+  {
+   "key": "verylarge",
+   "label": "Very large practice",
+   "from": 20000,
+   "to": null
+  }
+ ],
+ "dists": [
+  {
+   "key": "apptwhen",
+   "label": "How soon the appointment happened",
+   "categories": [
+    "Same day",
+    "Next day",
+    "A few days later",
+    "1 to 2 weeks later",
+    "Over 2 weeks later"
+   ],
+   "england": [
+    0.296,
+    0.089,
+    0.251,
+    0.228,
+    0.136
+   ]
+  },
+  {
+   "key": "appttype",
+   "label": "How the appointment took place",
+   "categories": [
+    "Face to face",
+    "By phone",
+    "Video, text or online"
+   ],
+   "england": [
+    0.741,
+    0.228,
+    0.031
+   ]
+  },
+  {
+   "key": "apptwho",
+   "label": "Who they saw",
+   "categories": [
+    "A GP",
+    "A nurse",
+    "Another clinician"
+   ],
+   "england": [
+    0.669,
+    0.231,
+    0.1
+   ]
+  },
+  {
+   "key": "contacthow",
+   "label": "How they contacted the practice",
+   "categories": [
+    "By phone",
+    "In person",
+    "Online",
+    "Another way"
+   ],
+   "england": [
+    0.538,
+    0.139,
+    0.308,
+    0.016
+   ]
+  },
+  {
+   "key": "age",
+   "label": "Age of people who answered",
+   "categories": [
+    "16 to 34",
+    "35 to 54",
+    "55 to 74",
+    "75 and over"
+   ],
+   "england": [
+    0.266,
+    0.342,
+    0.28,
+    0.113
+   ]
+  }
+ ]
+}

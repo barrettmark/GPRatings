@@ -1,0 +1,249 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (@media (prefers-color-scheme: dark));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-figtree);
+  --font-mono: ui-monospace, monospace;
+  --font-heading: var(--font-fraunces);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* GP Ratings palette: warm paper, deep teal ink, amber stars.
+   Independent look on purpose: this is not an official NHS site. */
+:root {
+  --background: oklch(0.985 0.006 85);
+  --foreground: oklch(0.23 0.03 205);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.23 0.03 205);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.23 0.03 205);
+  --primary: oklch(0.36 0.07 195);
+  --primary-foreground: oklch(0.985 0.006 85);
+  --secondary: oklch(0.95 0.012 85);
+  --secondary-foreground: oklch(0.27 0.04 200);
+  --muted: oklch(0.95 0.012 85);
+  --muted-foreground: oklch(0.47 0.025 205);
+  --accent: oklch(0.93 0.03 190);
+  --accent-foreground: oklch(0.27 0.05 195);
+  --destructive: oklch(0.52 0.16 30);
+  --border: oklch(0.9 0.012 85);
+  --input: oklch(0.88 0.014 85);
+  --ring: oklch(0.55 0.08 195);
+  --star: oklch(0.76 0.15 72);
+  --star-empty: oklch(0.88 0.02 85);
+  --better: oklch(0.47 0.11 155);
+  --better-soft: oklch(0.94 0.04 155);
+  --worse: oklch(0.5 0.15 32);
+  --worse-soft: oklch(0.95 0.035 32);
+  --loss: var(--worse);
+  --loss-soft: var(--worse-soft);
+  --chart-1: oklch(0.55 0.08 195);
+  --chart-2: oklch(0.76 0.15 72);
+  --chart-3: oklch(0.47 0.11 155);
+  --chart-4: oklch(0.5 0.15 32);
+  --chart-5: oklch(0.47 0.025 205);
+  --radius: 0.625rem;
+  --sidebar: oklch(0.97 0.008 85);
+  --sidebar-foreground: oklch(0.23 0.03 205);
+  --sidebar-primary: oklch(0.36 0.07 195);
+  --sidebar-primary-foreground: oklch(0.985 0.006 85);
+  --sidebar-accent: oklch(0.93 0.03 190);
+  --sidebar-accent-foreground: oklch(0.27 0.05 195);
+  --sidebar-border: oklch(0.9 0.012 85);
+  --sidebar-ring: oklch(0.55 0.08 195);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: oklch(0.19 0.018 210);
+    --foreground: oklch(0.95 0.008 85);
+    --card: oklch(0.23 0.02 210);
+    --card-foreground: oklch(0.95 0.008 85);
+    --popover: oklch(0.23 0.02 210);
+    --popover-foreground: oklch(0.95 0.008 85);
+    --primary: oklch(0.8 0.08 190);
+    --primary-foreground: oklch(0.2 0.03 205);
+    --secondary: oklch(0.27 0.02 210);
+    --secondary-foreground: oklch(0.93 0.01 85);
+    --muted: oklch(0.27 0.02 210);
+    --muted-foreground: oklch(0.73 0.02 205);
+    --accent: oklch(0.3 0.04 195);
+    --accent-foreground: oklch(0.93 0.02 190);
+    --destructive: oklch(0.7 0.15 30);
+    --border: oklch(1 0 0 / 11%);
+    --input: oklch(1 0 0 / 16%);
+    --ring: oklch(0.7 0.08 190);
+    --star: oklch(0.8 0.15 75);
+    --star-empty: oklch(0.36 0.02 210);
+    --better: oklch(0.78 0.12 155);
+    --better-soft: oklch(0.3 0.05 155);
+    --worse: oklch(0.75 0.13 35);
+    --worse-soft: oklch(0.31 0.05 32);
+    --sidebar: oklch(0.21 0.02 210);
+    --sidebar-foreground: oklch(0.95 0.008 85);
+    --sidebar-primary: oklch(0.8 0.08 190);
+    --sidebar-primary-foreground: oklch(0.2 0.03 205);
+    --sidebar-accent: oklch(0.3 0.04 195);
+    --sidebar-accent-foreground: oklch(0.93 0.02 190);
+    --sidebar-border: oklch(1 0 0 / 11%);
+    --sidebar-ring: oklch(0.7 0.08 190);
+  }
+}
+
+@theme inline {
+  --color-star: var(--star);
+  --color-star-empty: var(--star-empty);
+  --color-better: var(--better);
+  --color-better-soft: var(--better-soft);
+  --color-worse: var(--worse);
+  --color-worse-soft: var(--worse-soft);
+  --color-loss: var(--loss);
+  --color-loss-soft: var(--loss-soft);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+@layer base {
+  html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; scrollbar-color: color-mix(in oklch, var(--foreground) 22%, transparent) transparent; }
+  body { font-size: 1.0625rem; line-height: 1.6; caret-color: var(--primary); }
+
+  /* Browser surfaces carry the palette too */
+  ::selection { background: color-mix(in oklch, var(--primary) 22%, transparent); color: var(--foreground); }
+  :focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; border-radius: 4px; }
+  a { text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+
+  /* Tracking and leading change with size: tighter as type grows, a touch looser when small */
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+    font-optical-sizing: auto;
+    text-wrap: balance;
+  }
+  h1 { letter-spacing: -0.03em; line-height: 1.02; font-variation-settings: "SOFT" 30; }
+  h2 { letter-spacing: -0.015em; line-height: 1.15; }
+  h3, h4 { letter-spacing: -0.005em; }
+  .text-xs { letter-spacing: 0.01em; }
+  p { text-wrap: pretty; }
+  .tabular { font-variant-numeric: tabular-nums; }
+}
+
+/* Leaflet controls follow the theme */
+.leaflet-container { font-family: var(--font-sans); background: var(--muted); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--popover); color: var(--popover-foreground); }
+
+/* Star rating mask (components/stars.tsx): one shape, repeated per tile */
+.star-mask {
+  --star-shape: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1.6l2.47 5.3 5.8.68-4.28 3.97 1.13 5.73L10 14.4l-5.12 2.88 1.13-5.73L1.73 7.58l5.8-.68z'/%3E%3C/svg%3E");
+  -webkit-mask: var(--star-shape) 0 0 / var(--tile) var(--size) repeat-x;
+  mask: var(--star-shape) 0 0 / var(--tile) var(--size) repeat-x;
+}
+
+/* Translucent chrome: content scrolls underneath the header and compare bar */
+.material {
+  background: color-mix(in oklch, var(--background) 72%, transparent);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+}
+
+/* Scroll edge: a soft shadow fades in only once content is actually under the header */
+.scroll-edge::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 100%;
+  height: 14px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, color-mix(in oklch, var(--foreground) 7%, transparent), transparent);
+  opacity: 0;
+}
+@supports (animation-timeline: scroll()) {
+  .scroll-edge::after {
+    animation: scroll-edge-in linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 40px;
+  }
+}
+@supports not (animation-timeline: scroll()) {
+  .scroll-edge { box-shadow: inset 0 -1px 0 var(--border); }
+}
+@keyframes scroll-edge-in { to { opacity: 1; } }
+
+@media (prefers-reduced-transparency: reduce) {
+  .material { background: var(--background); -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+@media (prefers-contrast: more) {
+  .material { background: var(--background); -webkit-backdrop-filter: none; backdrop-filter: none; box-shadow: inset 0 -1px 0 var(--foreground); }
+}
+
+/* Reduced motion: no smooth scrolling, no pulsing placeholders; fades stay */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-pulse { animation: none; }
+}
+
+/* Editorial rules: hairlines that structure tables and lists */
+@utility rule-t { border-top: 1px solid var(--border); }
+@utility rule-strong { border-top: 2px solid var(--foreground); }
+
+/* Home emblem entrance: the pin settles, then the stars light up one by one.
+   Uses the individual translate/scale properties so the SVG transform attributes stay intact. */
+@keyframes emblem-drop { from { translate: 0 -14px; opacity: 0; } to { translate: 0 0; opacity: 1; } }
+@keyframes emblem-star { from { scale: 0.3; opacity: 0; } 65% { scale: 1.18; opacity: 1; } to { scale: 1; opacity: 1; } }
+.emblem-pin { animation: emblem-drop 700ms cubic-bezier(0.2, 1.25, 0.4, 1) both; }
+.emblem-star {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: emblem-star 420ms cubic-bezier(0.25, 1, 0.5, 1) both;
+  animation-delay: calc(450ms + var(--i) * 110ms);
+}
+@media (prefers-reduced-motion: reduce) {
+  .emblem-pin, .emblem-star { animation: none; }
+}
